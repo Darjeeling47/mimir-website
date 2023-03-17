@@ -1,0 +1,21 @@
+@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&family=Prompt&display=swap');
+
+body {
+	margin: 0;
+}
+
+.navbar{
+	box-shadow: 0px 0px 15px 3px #A4A4A4;
+}
+
+.navbar img {
+	height: 40px;
+	margin-right: 40px;
+	margin-left: 20px;
+	vertical-align: bottom;
+}
+
+.navbar-nav a{
+	font-family: 'Prompt', sans-serif;
+}
