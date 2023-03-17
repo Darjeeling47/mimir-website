@@ -5,7 +5,7 @@ body {
 	margin: 0;
 }
 
-.navbar{
+.navbar {
 	box-shadow: 0px 0px 15px 3px #A4A4A4;
 }
 
@@ -18,4 +18,29 @@ body {
 
 .navbar-nav a{
 	font-family: 'Prompt', sans-serif;
+}
+
+.blankspace {
+	margin-top: 60px;
+	margin-bottom: 20px;
+}
+
+.blankspace img{
+	border-radius: 0.5rem;
+}
+
+.introduce {
+	margin-left: 30px;
+}
+
+.introduce h1 {
+	font-size: 50px;
+	font-family: 'Prompt', sans-serif;
+	margin-top: 20px;
+	margin-bottom: 0px;
+}
+
+.introduce h2 {
+	font-size: 23px;
+	font-family: 'IBM Plex Sans Thai', sans-serif;;
 }
