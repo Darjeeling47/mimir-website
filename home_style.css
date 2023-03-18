@@ -23,14 +23,19 @@ body {
 .blankspace {
 	margin-top: 60px;
 	margin-bottom: 20px;
-}
-
-.blankspace img{
-	border-radius: 0.5rem;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .introduce {
 	margin-left: 30px;
+	flex-basis: 55%;
+}
+
+.introduce img {
+	border-radius: 0.4rem;
+	flex-basis: 45%;
 }
 
 .introduce h1 {
@@ -42,5 +47,11 @@ body {
 
 .introduce h2 {
 	font-size: 23px;
-	font-family: 'IBM Plex Sans Thai', sans-serif;;
+	font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+@media (max-width: 800px) {
+	.introduce {
+		flex-basis: 100%;
+	}
 }
