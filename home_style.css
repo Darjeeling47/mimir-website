@@ -28,14 +28,8 @@ body {
     justify-content: space-between;
 }
 
-.introduce {
-	margin-left: 30px;
-	flex-basis: 55%;
-}
-
 .introduce img {
 	border-radius: 0.4rem;
-	flex-basis: 45%;
 }
 
 .introduce h1 {
@@ -50,8 +44,14 @@ body {
 	font-family: 'IBM Plex Sans Thai', sans-serif;
 }
 
-@media (max-width: 800px) {
-	.introduce {
-		flex-basis: 100%;
-	}
+.introduce a {
+	font-size: 17px;
+	margin-top: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
+	border-radius: 100px;
+}
+
+.introduce i {
+	margin-left: 5px;
 }
