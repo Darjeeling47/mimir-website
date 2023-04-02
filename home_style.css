@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Prompt&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&family=Prompt&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&family=Nunito+Sans:wght@800&family=Prompt&display=swap');
 
 body {
 	margin: 0;
@@ -69,6 +68,20 @@ body {
 	font-family: 'Prompt', sans-serif;
 	text-align: center;
 	margin-bottom: 0px;
+	/*background: linear-gradient(to right, #f32170,#ff6b08, #cf23cf, #eedd44);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;*/
+}
+
+.about_us h2 {
+	font-size: 25px;
+	font-family: 'Prompt', sans-serif;
+	margin-bottom: 20px;
+}
+
+.about_us h3 {
+	font-size: 19px;
+	font-family: 'IBM Plex Sans Thai', sans-serif;
 }
 
 .about_us p {
@@ -76,3 +89,188 @@ body {
 	font-family: 'IBM Plex Sans Thai', sans-serif;
 	text-align: center;
 }
+
+/*box for about us*/
+.about_us .box { 
+	text-align: center;
+	background: #FFFFFF;
+	box-shadow: 0px 7px 12px 0px #E3E3E3;
+	border-radius: 0.4rem;
+	margin-top: 40px;
+	margin-bottom: 20px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+	padding-left: 13px;
+	padding-right: 13px;
+}
+
+/*color line in about us box*/
+.about_us .color_line_1 {
+	background-color: #f59b65;
+	height: 8px;
+	border-radius: 20px;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.about_us .color_line_2 {
+	background-color: #e4443f;
+	height: 8px;
+	border-radius: 20px;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.about_us .color_line_3 {
+	background-color: #c5211c;
+	height: 8px;
+	border-radius: 20px;
+	margin-top: 25px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.static {
+	margin-top: 120px;
+	margin-bottom: 20px;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.static h1 {
+	font-size: 40px;
+	font-family: 'Prompt', sans-serif;
+	text-align: center;
+	margin-bottom: 15px;
+}
+
+.static h2 {
+	font-size: 25px;
+	font-family: 'IBM Plex Sans Thai', sans-serif;
+	text-align: center;
+	margin-bottom: 20px;
+	margin-top: 10px;
+}
+
+.static h3 {
+	font-size: 19px;
+	font-family: 'IBM Plex Sans Thai', sans-serif;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.static .percentage {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 150px;
+	text-align: center;
+	vertical-align: center;
+	background: linear-gradient(90deg, rgba(70,75,214,1) 0%, rgba(37,152,201,1) 50%, rgba(27,255,255,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+.static a {
+	font-size: 20px;
+	margin-top: 15px;
+	padding-left: 50px;
+	padding-right: 50px;
+	border-radius: 100px;
+	text-align: center;
+}
+
+.static .static_button {
+	text-align: center;
+}
+
+.subject {
+	margin-top: 120px;
+	margin-bottom: 20px;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.subjebt h1 {
+	font-size: 40px;
+	font-family: 'Prompt', sans-serif;
+	text-align: center;
+	margin-bottom: 0px;
+}
+
+.subject h2 {
+	font-size: 25px;
+	font-family: 'IBM Plex Sans Thai', sans-serif;
+	margin-bottom: 40px;
+	margin-top: 0px;
+}
+
+.subject a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.subject a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.subject .card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+	padding: 14px 150px 18px 36px;
+	margin-bottom: 30px;
+ 	cursor: pointer;
+}
+
+.subject .card:hover{
+    transform: scale(1.05);
+  	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.subject .card-1{
+  	background-image: url(image/math.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+}
+
+.subject .card-2{
+  	background-image: url(image/phy.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+}
+
+.subject .card-3{
+  	background-image: url(image/chem.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+}
+
+.subject .card-4{
+  	background-image: url(image/bio.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+}
+
+.subject .card-5{
+  	background-image: url(image/com.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+}
+
+.subject .card-6{
+  	background-image: url(image/another.jpg);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+}
+
