@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai&family=Nunito+Sans:wght@800&family=Prompt&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=IBM+Plex+Sans+Thai&family=Montserrat:wght@300&family=Nunito+Sans:wght@800&family=Prompt&display=swap');
 body {
 	margin: 0;
 }
@@ -53,6 +52,14 @@ body {
 
 .introduce i {
 	margin-left: 5px;
+}
+
+.introduce .color_line {
+	background-color: #6d6d6d;
+	height: 3px;
+	border-radius: 20px;
+	margin-top: 15px;
+	margin-bottom: 20px;
 }
 
 .about_us {
@@ -187,7 +194,7 @@ body {
 
 .subject {
 	margin-top: 120px;
-	margin-bottom: 20px;
+	margin-bottom: 100px;
 	display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -232,45 +239,82 @@ body {
   	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
 }
 
+.subject .card p {
+	font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
 .subject .card-1{
-  	background-image: url(image/math.jpg);
+  	background-image: url(image/math.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 180px;
 }
 
 .subject .card-2{
-  	background-image: url(image/phy.jpg);
+  	background-image: url(image/phy.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 180px;
 }
 
 .subject .card-3{
-  	background-image: url(image/chem.jpg);
+  	background-image: url(image/chem.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 180px;
 }
 
 .subject .card-4{
-  	background-image: url(image/bio.jpg);
+  	background-image: url(image/bio.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 180px;
 }
 
 .subject .card-5{
-  	background-image: url(image/com.jpg);
+  	background-image: url(image/com.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 180px;
 }
 
 .subject .card-6{
-  	background-image: url(image/another.jpg);
+  	background-image: url(image/another.png);
     background-repeat: no-repeat;
     background-position: right;
     background-size: 180px;
 }
 
+.bottom {
+	box-shadow: 0px 0px 15px 3px #A4A4A4;
+}
+
+.bottom img {
+	height: 50px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.bottom p {
+	font-family: 'Anuphan', sans-serif;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.bottom h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.bottom a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	color: #3b3b3b;
+}
+
+.bottom a:hover {
+	text-decoration: none;
+	color: #000000;
+}
