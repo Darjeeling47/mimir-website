@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Anuphan:wght@300&family=IBM+Plex+Sans+Thai&family=Montserrat:wght@300&family=Nunito+Sans:wght@800&family=Prompt&display=swap');
+body {
+	margin: 0;
+}
+
+.navbar {
+	box-shadow: 0px 0px 15px 3px #A4A4A4;
+}
+
+.navbar img {
+	height: 40px;
+	margin-right: 40px;
+	margin-left: 20px;
+	vertical-align: bottom;
+}
+
+.navbar-nav a{
+	font-family: 'Prompt', sans-serif;
+}
+
+.introduce {
+	margin-top: 100px;
+}
+
+.introduce h1{
+	font-size: 40px;
+	font-family: 'Prompt', sans-serif;
+}
+
+.introduce h2 {
+	font-size: 30px;
+	font-family: 'IBM Plex Sans Thai', sans-serif;
+}
