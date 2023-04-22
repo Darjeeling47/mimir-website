@@ -5,7 +5,7 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link rel="stylesheet" href="home_style.css"> <!-- Link Css -->
+	<link rel="stylesheet" href="home_style.css?v=<?php echo time(); ?>"> <!-- Link Css -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"> <!-- Link Boostrap --> 
 	<!-- Option 1: Include in HTML -->
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
@@ -22,7 +22,7 @@
   	<div class="container-fluid">
 
     	<!-- Logo -->
-		<a class="navbar-brand" href="index.html">
+		<a class="navbar-brand" href="index.php">
   			<img src="logo/Medium-black-logo.png">
   		</a>
 
@@ -37,20 +37,20 @@
 
       			<!-- home page -->
         		<li class="nav-item">
-          			<a class="nav-link active" aria-current="page" href="index.html">Home</a>
+          			<a class="nav-link active" aria-current="page" href="index.php">Home</a>
         		</li>
 
         		<!-- our lesson -->
         		<li class="nav-item">
-          			<a class="nav-link" href="lesson/lesson.html">Lesson</a>
+          			<a class="nav-link" href="lesson/lesson.php">Lesson</a>
         		</li>
 
         		<!-- last year information and static -->
        			<li class="nav-item dropdown">
           			<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Information</a>
           			<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            			<li><a class="dropdown-item" href="static/static.html">Statistics</a></li>
-            			<li><a class="dropdown-item" href="team/our_team.html">Our team</a></li>
+            			<li><a class="dropdown-item" href="static/static.php">Statistics</a></li>
+            			<li><a class="dropdown-item" href="team/our_team.php">Our team</a></li>
             			<li><a class="dropdown-item disabled" href="#">Examination Room</a> <!-- will anable soon --> 
           			</ul>
         		</li>
@@ -133,26 +133,28 @@
 		</div>
 		<div class="color_line"></div>
 		<div class="row">
-			<div class="col-md">
+			<div class="col-lg box">
 				<div class="pic"><i class="bi bi-book-half"></i></div>
 				<h3>Academic</h3>
+				<div class="color_line_box"></div>
 				<p>เพื่อพัฒนาความรู้ และความสามารถด้านวิชาการ</p>
 			</div>
-			<div class="col-md">
+			<div class="col-lg box">
 				<div class="pic"><i class="bi bi-cursor-fill"></i></div>
 				<h3>Ability</h3>
+				<div class="color_line_box"></div>
 				<p>นำความรู้ไปปรับใช้ในอนาคตได้อย่างเหมาะสม</p>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-md">
+			<div class="col-lg box">
 				<div class="pic"><i class="bi bi-bookmark-star-fill"></i></div>
 				<h3>Opportunity</h3>
+				<div class="color_line_box"></div>
 				<p>ผู้ที่ประสงค์ที่จะสอบแข่งขันมีโอกาสในการผ่านรอบคัดเลือกมากขึ้น</p>
 			</div>
-			<div class="col-md">
+			<div class="col-lg box">
 				<div class="pic"><i class="bi bi-bar-chart-line-fill"></i></div>
 				<h3>Improve</h3>
+				<div class="color_line_box"></div>
 				<p>นำมาปรับปรุง และพัฒนาต่อยอดโครงการในปีถัดไป</p>
 			</div>
 		</div>

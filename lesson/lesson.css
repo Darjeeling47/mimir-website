@@ -19,15 +19,229 @@ body {
 }
 
 .introduce {
-	margin-top: 100px;
+	margin-top: 60px;
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+	background: #000000;
+	color: #ffffff;
 }
 
 .introduce h1{
-	font-size: 40px;
+	font-size: 80px;
 	font-family: 'Prompt', sans-serif;
 }
 
 .introduce h2 {
-	font-size: 30px;
+	font-size: 40px;
 	font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.introduce p {
+	font-size: 20px;
+	font-family: 'IBM Plex Sans Thai', sans-serif;
+	margin-top: 20px;
+}
+
+.introduce .color_line {
+	background: linear-gradient(90deg, rgba(173,0,255,1) 0%, rgba(255,0,0,1) 65%, rgba(255,151,0,1) 95%);
+	height: 3px;
+	border-radius: 20px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.subject {
+	padding-top: 30px;
+	padding-bottom: 100px;
+	display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.subject .color_line_1 {
+	background: #0074FF;
+	height: 3px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.subject .color_line_2 {
+	background: #FF0000;
+	height: 3px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.subject .color_line_3 {
+	background: #FF9700;
+	height: 3px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.subject .color_line_4 {
+	background: #048C00;
+	height: 3px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.subject .color_line_5 {
+	background: #2200A2;
+	height: 3px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.subject .color_line_6 {
+	background: #818181;
+	height: 3px;
+	border-radius: 20px;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
+.subject a {
+	color: #000000;
+	text-decoration: none;
+}
+
+.subject a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+
+.subject .card{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+	padding: 30px 200px 18px 36px;
+	margin-bottom: 30px;
+ 	cursor: pointer;
+}
+
+.bottom {
+	box-shadow: 0px 0px 15px 3px #A4A4A4;
+	padding-bottom: 50px;
+}
+
+.bottom img {
+	height: 50px;
+	margin-top: 30px;
+	margin-bottom: 20px;
+}
+
+.bottom p {
+	font-family: 'Anuphan', sans-serif;
+	font-size: 18px;
+	margin-bottom: 20px;
+}
+
+.bottom h1 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 20px;
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.bottom a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	color: #808080;
+}
+
+.bottom a:hover {
+	text-decoration: none;
+	color: #000000;
+}
+
+.subject .card:hover{
+    transform: scale(1.05);
+  	box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.subject .card p {
+	font-family: 'IBM Plex Sans Thai', sans-serif;
+}
+
+.subject .card-1{
+  	background-image: url(../image/math.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+}
+
+.subject .card-2{
+  	background-image: url(../image/phy.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+}
+
+.subject .card-3{
+  	background-image: url(../image/chem.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+}
+
+.subject .card-4{
+  	background-image: url(../image/bio.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+}
+
+.subject .card-5{
+  	background-image: url(../image/com.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+}
+
+.subject .card-6{
+  	background-image: url(../image/another.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 180px;
+}
+
+/*this is for lesson*/
+
+.table {
+	margin-top: 30px;
+	margin-bottom: 300px;
+	padding-bottom: 70px;
+}
+
+.table h1 {
+	font-size: 40px;
+	font-family: 'Prompt', sans-serif;
+	margin-top: 40px;
+}
+
+.table h2 {
+	font-size: 23px;
+	font-family: 'IBM Plex sans Thai', sans-serif;
+	margin-bottom: 20px;
+}
+
+.thai {
+	font-size: 19px;
+	font-family: 'IBM Plex sans Thai', sans-serif;
+}
+
+.color_line_math {
+	background: linear-gradient(90deg, rgba(0,255,224,1) 16%, rgba(1,0,255,1) 100%);
+	height: 3px;
+	border-radius: 20px;
+	margin-top: 15px;
+	margin-bottom: 20px;
 }

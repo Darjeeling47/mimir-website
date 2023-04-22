@@ -142,6 +142,7 @@ body {
 .target {
 	margin-top: 120px;
 	margin-bottom: 20px;
+	padding-bottom: 10px;
 	display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -189,6 +190,25 @@ body {
 	border-radius: 20px;
 	margin-top: 15px;
 	margin-bottom: 20px;
+}
+
+.target .color_line_box {
+	background: #E5E4E4;
+	height: 2px;
+	border-radius: 20px;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+
+.target .box { 
+	background: #FFFFFF;
+	box-shadow: 0px 5px 12px 0px #E3E3E3;
+	border-radius: 0.4rem;
+	margin-bottom: 10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-top: 10px;
+	padding-bottom: 2px;
 }
 
 .static {
